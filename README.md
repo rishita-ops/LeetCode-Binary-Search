@@ -40,12 +40,6 @@ Explanation: 2 does not exist in nums so return -1
 ## The Code
 
 ```python
-#Binary Search :
-#Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums.
-#If target exists, then return its index. Otherwise, return -1.
-#You must write an algorithm with O(log n) runtime complexity.
-#donot use vectors
-
 def binary_search(nums, target):
     left = 0
     right = len(nums) - 1
